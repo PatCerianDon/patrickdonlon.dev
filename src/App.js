@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./Navbar";
+import Main from './pages/main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Site Under Construction
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/PatCerianDon"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Link
-        </a>
-      </header>
-    </div>
+      <div>
+          <Navbar/>
+        <Main />
+      </div>
   );
 }
 
